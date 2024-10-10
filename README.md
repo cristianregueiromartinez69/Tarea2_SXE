@@ -63,5 +63,23 @@ La cual nos dará la dirección ip de nuestro contenedor. Si ejecutamos:
 **ping google**
  podremos hacer un ping a google.com
 
+5. ***Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?***
 
+## Explicacion del proceso:
+- primero arrancar el contenedor dam_alp1:
 
+**sudo docker container start --attach -i dam_alp1**
+
+- Nos vamos a otro terminal con alt + f2 y creamos un contenedor:ç
+
+**sudo docker container create -i -t --name dam_alp2 alpine**
+
+- Accedemos a el:
+
+**sudo docker container start --attach -i dam_alp2**
+
+- Ahora ejecutamos en ambos terminales, siempre dentro del contenedor claro:
+
+**ip a** y luego **ping 172.17.0.2**
+
+cada uno pondra la ip que le corresponda para hacer el ping
