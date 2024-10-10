@@ -83,3 +83,14 @@ La cual nos dará la dirección ip de nuestro contenedor. Si ejecutamos:
 **ip a** y luego **ping 172.17.0.2**
 
 cada uno pondra la ip que le corresponda para hacer el ping
+
+
+6. ***Sal del terminal, ¿que ocurrió con el contenedor?***
+
+para salir del terminal usamos:
+
+**control + d**
+
+Se apaga el contenedor, pero si lo abrimos en una terminal nueva, cerramos el terminal sin usar el comando anterior, se sigue ejecutando de fondo.
+
+
