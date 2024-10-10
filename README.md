@@ -105,3 +105,17 @@ Para saber esto, ejecutamos:
 
 Ambos pesan practicamente nada
 
+8. ***¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.***
+
+Para saber esto y mirarlo mejor, vamos a hacer lo siguiente:
+- Entramos en otra terminal con alt + f2
+- arrancamos un contenedor con los comandos de los pasos anteriores
+- Volvemos al terminal de antes
+
+Una vez en el terminal de antes, ejecutamos:
+
+**sudo docker stats**
+
+Este comando nos da en tiempo real lo que ocupa nuestro contenedor, memoria, cpu...
+Ahora mismo ocupa de memoria **492Kib**
+
