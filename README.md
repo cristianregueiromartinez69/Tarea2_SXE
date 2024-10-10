@@ -39,8 +39,8 @@ El nombre del contenedor es: peaceful_pare (el nombre es aleatorio ya que no ha 
 Ahora vamos a crear un contenedor con nombre, para ello ejecutamos:
 - sudo docker container create -i -t --name dam_alp1 alpine
 
-La sintaxis es la misma que en el comando anterior, pero especificamos un parametro más.
-- --name (nombre del contenedor): entre parentesis ponemos el nombre del contenedor y comprobamos que fue creado con el comando del paso 2.
+La sintaxis es la misma que en el comando anterior, pero especificamos un parámetro más.
+- --name (nombre del contenedor): entre paréntesis ponemos el nombre del contenedor y comprobamos que fue creado con el comando del paso 2.
 
 Accedemos a él con el siguiente comando:
 
@@ -74,7 +74,7 @@ La cual nos dará la dirección ip de nuestro contenedor. Si ejecutamos:
 
 **sudo docker container create -i -t --name dam_alp2 alpine**
 
-- Accedemos a el:
+- Accedemos a él:
 
 **sudo docker container start --attach -i dam_alp2**
 
@@ -82,7 +82,7 @@ La cual nos dará la dirección ip de nuestro contenedor. Si ejecutamos:
 
 **ip a** y luego **ping 172.17.0.2**
 
-cada uno pondra la ip que le corresponda para hacer el ping
+cada uno pondrá la ip que le corresponda para hacer el ping
 
 
 6. ***Sal del terminal, ¿que ocurrió con el contenedor?***
