@@ -48,7 +48,20 @@ Accedemos a él con el siguiente comando:
 
 Con esto no solo lo iniciamos si no que con el --attack accedemos directamente
 
+4. ***Comprueba que ip tiene y si puedes hacer un ping a google.com***
 
+Lo primero es arrancar y meternos en el contenedor, ejecutamos:
+
+**sudo docker container start --attach -i dam_alp1**
+
+ahora metemos:
+
+**ip a**
+
+La cual nos dará la dirección ip de nuestro contenedor. Si ejecutamos:
+
+**ping google**
+ podremos hacer un ping a google.com
 
 
 
