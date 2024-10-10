@@ -94,3 +94,14 @@ para salir del terminal usamos:
 Se apaga el contenedor, pero si lo abrimos en una terminal nueva, cerramos el terminal sin usar el comando anterior, se sigue ejecutando de fondo.
 
 
+7. ***¿Cuanta memoria en el disco duro ocupaste?***
+
+Para saber esto, ejecutamos:
+
+**sudo docker system df -v**
+
+- El contenedor dam_alp1 ocupa -> 21B
+- El contenedor de dam_alp2 ocupa -> 40B
+
+Ambos pesan practicamente nada
+
